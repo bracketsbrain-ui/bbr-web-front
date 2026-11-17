@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bracketsbrain — Remédiation PDF</title>
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+<header>
+  <h1><b>Bracketsbrain</b> — remédiation PDF/UA</h1>
+  <span id="health" role="status" aria-live="polite">connexion…</span>
+</header>
+<main>
+  <div id="dropzone" tabindex="0" role="button"
+       aria-label="Déposer des PDF : cliquez, appuyez sur Entrée ou glissez des fichiers ici">
+    <strong>Déposez vos PDF ici</strong>
+    <p>Clic, touche Entrée ou glisser-déposer — plusieurs fichiers possibles.</p>
+    <input type="file" id="fileinput" accept="application/pdf" multiple hidden>
+  </div>
+  <ul id="jobs" aria-label="Vos documents"></ul>
+</main>
+<script src="app.js"></script>
+</body>
+</html>
